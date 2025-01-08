@@ -1,7 +1,0 @@
-{
-	"axis": 1,
-	"colorMode": 0,
-	"maxLines": 10000,
-	"duration": 10,
-	"fadeout": 1
-}

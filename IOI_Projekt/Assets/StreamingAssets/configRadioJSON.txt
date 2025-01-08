@@ -1,0 +1,72 @@
+{
+	"category": [
+		{
+			"weight": 35,
+			"radio": [
+				{
+					"url": "https://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://radio.rockserwis.fm/live",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 65,
+			"radio": [
+				{
+					"url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 85,
+			"radio": [
+				{
+					"url": "https://http-live.sr.se/p4gavleborg-mp3-192",
+					"tool": 0
+				},
+				{
+					"url": "http://listen.littleraleighradio.org:8000/lrr.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 100,
+			"radio": [
+				{
+					"url": "https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://www.liveradio.es/http://revoice.ru:8000/tunguska.mp3",
+					"tool": 0
+				}
+			]
+		}
+	]
+}
