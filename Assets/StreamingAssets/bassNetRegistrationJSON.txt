@@ -1,0 +1,6 @@
+{
+	"registration": {
+		"email": "katarinagojkovick@gmail.com",
+		"key": "2X2032027152222"
+	}
+}

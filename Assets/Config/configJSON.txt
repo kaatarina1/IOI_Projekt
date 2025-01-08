@@ -1,0 +1,72 @@
+{
+	"music": [
+		{
+			"weight": 20,
+			"stations": [
+				{
+					"url": "http://snd.radio-z.net:8000/Radio-Z",
+					"tool": 0
+				},
+				{
+					"url": "https://h2oradio.net-radio.fr/h2o-chambery-web",
+					"tool": 0
+				},
+				{
+					"url": "https://http-live.sr.se/p4jamtland-mp3-192",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 50,
+			"station": [
+				{
+					"url": "https://radiohio.streamguys1.com/cols/wbnsfm.mp3"
+					"tool": 0
+				},
+				{
+					"url": "https://stream.fmsur.pro:8125/mobile.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://s.streampunk.cc/ciroma.mp3",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 80,
+			"stations": [
+				{
+					"url": "https://mvyradio.streamguys1.com/mvy-mp3"
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3",
+					"tool": 0
+				}
+			]
+		},
+		{
+			"weight": 110,
+			"stations": [
+				{
+					"url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
+					"tool": 0
+				},
+				{
+					"url": "http://listen.littleraleighradio.org:8000/lrr.mp3",
+					"tool": 0
+				},
+				{
+					"url": "https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3",
+					"tool": 0
+				}
+			]
+		}
+	]
+}
