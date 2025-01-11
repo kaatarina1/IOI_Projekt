@@ -271,11 +271,6 @@ public class Board : MonoBehaviour
 						}
 					}
 				}
-				// če pritisnemo escape zapremo aplikacijo
-				if (Input.GetKeyDown(KeyCode.Escape))
-				{
-					Application.Quit();
-				}
 				// posodobimo debug okno če smo v debug mode-u
 				if (isDebugOn)
 				{
@@ -283,7 +278,13 @@ public class Board : MonoBehaviour
 				}
 			}
 		}
-	}
+
+        // če pritisnemo escape zapremo aplikacijo
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 
 	public void ExitGame()
 	{
@@ -307,6 +308,7 @@ public class Board : MonoBehaviour
 		errorCanvas.SetActive(true);
 		noRadio.text =
 			"Application did not discover any Wii Balance Board. Please check if Board is connected to your computer and restart the application!";
+		canvas.SetActive(false);
 	}
 
 	public void OnWiimoteDiscovered(int thisRemote)
