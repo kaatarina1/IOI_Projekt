@@ -1,7 +1,3 @@
-Here is a `README.md` file based on the instructions in your document:
-
----
-
 # Wii Balance Board Visualization Application
 
 ## Overview
@@ -15,29 +11,29 @@ This document provides instructions on how to connect a Wii Balance Board to you
 Follow these steps to successfully pair the Wii Balance Board with your computer:
 
 1.  **Open Bluetooth Settings**:
-    - Go to `Settings` > `Bluetooth & devices`.
-    - On the `Devices` tab, click the arrow to expand options.
-      ![](./images/2024-12-08_00-16.png)
+    -   Go to `Settings` > `Bluetooth & devices`.
+    -   On the `Devices` tab, click the arrow to expand options.
+        ![](./images/2024-12-08_00-16.png)
 2.  **Access Device Settings**:
 
-        - Under `Related settings`, select `More devices and printer settings`.
+    -   Under `Related settings`, select `More devices and printer settings`.
 
     ![](./images/2024-12-08_00-18.png)
 
 3.  **Control Panel**:
 
-        - In the `Control Panel`, click on `Add a device`.
+    -   In the `Control Panel`, click on `Add a device`.
 
     ![](./images/2024-12-08_00-18_1.png)
 
 4.  **Pairing the Wii Balance Board**:
-    - Press the red sync button on the Wii Board (near the batteries).
-    - Wait for the device to appear on your computer, and select it.
-      ![](./images/2024-12-08_00-19.png)
+    -   Press the red sync button on the Wii Board (near the batteries).
+    -   Wait for the device to appear on your computer, and select it.
+        ![](./images/2024-12-08_00-19.png)
 5.  **Skip Password**:
 
-        - When prompted for a password, **do not enter any password** and click `Next`.
-        - **Important:** If you attempt to enter a password and it doesn’t work, remove the device and repeat the pairing process.
+    -   When prompted for a password, **do not enter any password** and click `Next`.
+    -   **Important:** If you attempt to enter a password and it doesn’t work, remove the device and repeat the pairing process.
 
     ![](./images/2024-12-08_00-20.png)
 
@@ -90,6 +86,7 @@ Here is an explanation of the parameters used in the JSON configuration files:
     -   `2`: Lines are green if current pressure is greater than or equal to the previous, else red.
 -   **maxLines**: Specifies the maximum number of lines displayed on screen.
 -   **duration**: Determines how long each line stays on screen (in seconds).
+
     ![](./images/conf_vis.png)
 
 **Note**: After modifying any configuration file, restart the application to apply the changes.
